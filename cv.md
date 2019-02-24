@@ -13,7 +13,7 @@ date: 22 November 2014
 
 > My research interests are ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### Education 
+### Education
 
 - M.A.     Subject (grade), University name and location
 - B.A.     Subject (grade), University name and location
@@ -24,7 +24,7 @@ date: 22 November 2014
 - Intermediate: HTML, Python, etc, etc
 - Basic: CSS, Stata, etc, etc
 
-### Employment 
+### Employment
 
 - 2015: Job title, Company
 
@@ -83,11 +83,9 @@ date: 22 November 2014
 - YYYY: Description of award, certificate, supporting info etc.
 - YYYY: Description of award, certificate, supporting info etc.
 
+### Publications
+\bibentry{ge2018turing}
+
 ### References
 
 Available on request.
-
-
-
-
-

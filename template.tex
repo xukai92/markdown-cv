@@ -2,10 +2,10 @@
 %!TEX encoding = UTF-8 Unicode
 
 \documentclass[11pt, a4paper]{article}
-\usepackage{fontspec} 
+\usepackage{fontspec}
 
 % DOCUMENT LAYOUT
-\usepackage[margin=1.2in]{geometry} 
+\usepackage[margin=1.2in]{geometry}
 \setlength\parindent{0in}
 
 % fix for pandoc 1.14
@@ -23,8 +23,8 @@
 \usepackage{xltxtra}
 \defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (quotes'' --- dashes etc.) to unicode
 % \setromanfont[Ligatures={Common}, Numbers={OldStyle}]{Palatino}
-% \setmonofont[Scale=1.0]{Monaco} 
-% \setsansfont[Scale=1.0]{Optima Regular} 
+% \setmonofont[Scale=1.0]{Monaco}
+% \setsansfont[Scale=1.0]{Optima Regular}
 
 % HEADINGS and TITLES
 \usepackage{sectsty}
@@ -42,10 +42,18 @@
 $street$ \textbar{} $city$, $postcode$\\ %Put your address here
 $phone$ \textbar{} $email$ } % put your contact information here
 
+% PUBLICATIONS
+\usepackage{natbib}
+\usepackage{bibentry}
+
 % BEGIN DOCUMENT
 \begin{document}
+% LOAD mypubs.bib
+\bibliographystyle{plain}
+\nobibliography{mypubs}
 \maketitle
 \begin{raggedright}
 $body$
 \end{raggedright}
+
 \end{document}

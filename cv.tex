@@ -1,0 +1,232 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{fontspec}
+
+% DOCUMENT LAYOUT
+\usepackage[margin=1.2in]{geometry}
+\setlength\parindent{0in}
+
+% fix for pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Reduce spacing in itemize, enumerate and titles
+\usepackage{multicol}
+\usepackage{enumitem}
+\setenumerate{nolistsep}
+\setitemize{nolistsep}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (quotes'' --- dashes etc.) to unicode
+% \setromanfont[Ligatures={Common}, Numbers={OldStyle}]{Palatino}
+% \setmonofont[Scale=1.0]{Monaco}
+% \setsansfont[Scale=1.0]{Optima Regular}
+
+% HEADINGS and TITLES
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\sffamily\mdseries\large\underline} % Underlines headings
+\setcounter{secnumdepth}{-1} % Removes the numbers before sections
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+\usepackage{titling}
+\setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
+\title{Your Name} % name Your Name
+\date{22 November 2014\\} % Leave blank to remove the date
+\author{http://yourwebsite.com\\\\
+Street address \textbar{} City, Postal code\\ %Put your address here
++12 (0)3456 7891011 \textbar{} your.email@address.com } % put your contact information here
+
+% PUBLICATIONS
+\usepackage{natbib}
+\usepackage{bibentry}
+
+% BEGIN DOCUMENT
+\begin{document}
+\bibliographystyle{plain}
+\nobibliography{mypubs}
+\maketitle
+\begin{raggedright}
+\subsubsection{Personal summary}
+
+\begin{quote}
+My research interests are \ldots{} Lorem ipsum dolor sit amet,
+consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+\end{quote}
+
+\subsubsection{Education}
+
+\begin{itemize}
+\tightlist
+\item
+  M.A.~Subject (grade), University name and location
+\item
+  B.A. Subject (grade), University name and location
+\item
+  A Level Subject (grade), University name and location
+\end{itemize}
+
+\subsubsection{Technical}
+
+\begin{itemize}
+\tightlist
+\item
+  Intermediate: HTML, Python, etc, etc
+\item
+  Basic: CSS, Stata, etc, etc
+\end{itemize}
+
+\subsubsection{Employment}
+
+\begin{itemize}
+\tightlist
+\item
+  2015: Job title, Company
+\end{itemize}
+
+\begin{quote}
+In this role I\ldots{}Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2012: Job title, Company
+\end{itemize}
+
+\begin{quote}
+In this role I\ldots{}Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2011: Job title, Company
+\end{itemize}
+
+\begin{quote}
+In this role I\ldots{}Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2008: Job title, Company
+\end{itemize}
+
+\begin{quote}
+In this role I\ldots{}Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
+\end{quote}
+
+\newpage
+
+\subsubsection{Publications}
+
+\begin{itemize}
+\tightlist
+\item
+  YYYY: Name et al.~Article title. Journal name. Link/DOI
+\item
+  YYYY: Name et al.~Article title. Journal name. Link/DOI
+\item
+  YYYY: Name et al.~Article title. Journal name. Link/DOI
+\item
+  YYYY: Name et al.~Article title. Journal name. Link/DOI
+\item
+  YYYY: Name et al.~Article title. Journal name. Link/DOI
+\item
+  YYYY: Name et al.~Article title. Journal name. Link/DOI
+\item
+  YYYY: Name et al.~Article title. Journal name. Link/DOI
+\end{itemize}
+
+\subsubsection{Selected presentations}
+
+\begin{itemize}
+\tightlist
+\item
+  YYYY: Title of presentation. Conference. Location. Poster/Oral
+\item
+  YYYY: Title of presentation. Conference. Location. Poster/Oral
+\item
+  YYYY: Title of presentation. Conference. Location. Poster/Oral
+\item
+  YYYY: Title of presentation. Conference. Location. Poster/Oral
+\item
+  YYYY: Title of presentation. Conference. Location. Poster/Oral
+\item
+  YYYY: Title of presentation. Conference. Location. Poster/Oral
+\item
+  YYYY: Title of presentation. Conference. Location. Poster/Oral
+\end{itemize}
+
+\subsubsection{Memberships and committees}
+
+\begin{itemize}
+\tightlist
+\item
+  YYYY: Name of committee/society etc.
+\item
+  YYYY: Name of committee/society etc.
+\item
+  YYYY: Name of committee/society etc.
+\item
+  YYYY: Name of committee/society etc.
+\item
+  YYYY: Name of committee/society etc.
+\item
+  YYYY: Name of committee/society etc.
+\end{itemize}
+
+\subsubsection{Awards and supporting information}
+
+\begin{itemize}
+\tightlist
+\item
+  YYYY: Description of award, certificate, supporting info etc.
+\item
+  YYYY: Description of award, certificate, supporting info etc.
+\item
+  YYYY: Description of award, certificate, supporting info etc.
+\item
+  YYYY: Description of award, certificate, supporting info etc.
+\item
+  YYYY: Description of award, certificate, supporting info etc.
+\item
+  YYYY: Description of award, certificate, supporting info etc.
+\item
+  YYYY: Description of award, certificate, supporting info etc.
+\end{itemize}
+
+\subsubsection{Publications}
+
+\bibentry{ge2018turing}
+
+\subsubsection{References}
+
+Available on request.
+\bibentry{ge2018turing}
+\end{raggedright}
+
+
+
+\end{document}
