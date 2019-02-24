@@ -17,14 +17,14 @@ I am a second year Ph.D Student at [Institute for Adaptive and Neural Computatio
 
 ### Papers
 
-- \bibentry{xu2018interpreting}
-- \bibentry{srivastava2018ratio}
-- \bibentry{ge2018turing}
+- \bibentry{srivastava2018ratio} ([arXiv](https://arxiv.org/abs/1806.00101), [pdf](https://arxiv.org/pdf/1806.00101.pdf))
+- \bibentry{xu2018interpreting} ([arXiv](https://arxiv.org/abs/1803.04042), [pdf](https://arxiv.org/pdf/1803.04042.pdf), [demo](http://xuk.ai/darksight/demo/mnist.html), [code](https://github.com/xukai92/darksight), [website](http://xuk.ai/darksight/))
+- \bibentry{ge2018turing} ([abs](http://proceedings.mlr.press/v84/ge18b.html), [pdf](http://proceedings.mlr.press/v84/ge18b/ge18b.pdf), [code](https://github.com/yebai/Turing.jl), [website](http://turing.guru/))
 
 ### Talks
 
-- Copresenter for "The Turing Language for Probabilistic Programming" at *The Inaugural International Conference on Probabilistic Programming, MIT, MA, USA* in October 2018.
-- Presenter for "Turing: a Fresh Approach to Probabilistic Programming." at *JuliaCon 2017, Berkeley, CA, USA* in June 2017. ([video](https://www.youtube.com/watch?v=DJWNQg7uuCg))
+- Copresenter for "The Turing Language for Probabilistic Programming" at *The Inaugural International Conference on Probabilistic Programming*, MIT, MA, USA in October 2018.
+- Presenter for "Turing: a Fresh Approach to Probabilistic Programming." at *JuliaCon 2017*, Berkeley, CA, USA in June 2017. ([video](https://www.youtube.com/watch?v=DJWNQg7uuCg))
 
 ### Experience
 
