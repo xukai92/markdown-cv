@@ -36,11 +36,14 @@
 
 \usepackage{titling}
 \setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
-\title{Your Name} % name Your Name
-\date{22 November 2014\\} % Leave blank to remove the date
-\author{http://yourwebsite.com\\\\
-Street address \textbar{} City, Postal code\\ %Put your address here
-+12 (0)3456 7891011 \textbar{} your.email@address.com } % put your contact information here
+\title{Kai Xu} % name Kai Xu
+\date{} % Leave blank to remove the date
+\author{http://xuk.ai/\\\\
+Informatics Forum, 10 Crichton Street \textbar{} Edinburgh, EH8 9AB\\ %Put your address here
++44 (0) 770 771 9899 \textbar{} kai.xu@ed.ac.uk } % put your contact information here
+
+% HYPERLINKS
+\usepackage{hyperref}
 
 % PUBLICATIONS
 \usepackage{natbib}
@@ -48,185 +51,114 @@ Street address \textbar{} City, Postal code\\ %Put your address here
 
 % BEGIN DOCUMENT
 \begin{document}
+% LOAD mypubs.bib
 \bibliographystyle{plain}
 \nobibliography{mypubs}
 \maketitle
 \begin{raggedright}
-\subsubsection{Personal summary}
+\href{mailto:kai.xu@ed.ac.uk}{Email} \textbar{}
+\href{http://github.com/xukai92}{GitHub} \textbar{}
+\href{https://scholar.google.ca/citations?user=kf3C60wAAAAJ}{Google
+Scholar}
+
+\subsubsection{About Me}
 
 \begin{quote}
-My research interests are \ldots{} Lorem ipsum dolor sit amet,
-consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+I am a second year Ph.D Student at
+\href{http://www.anc.ed.ac.uk/}{Institute for Adaptive and Neural
+Computation}, \href{https://www.ed.ac.uk/informatics}{School of
+Informatics}, University of Edinburgh. I am currently supervised by
+\href{http://homepages.inf.ed.ac.uk/csutton/}{Charles Sutton}, working
+on amortised inference for Bayesian nonparametric models. Research
+topics that I am interested in include approximate inference, (deep)
+generative models and probabilistic programming.
 \end{quote}
+
+\subsubsection{Papers}
+
+\begin{itemize}
+\item
+  \bibentry{xu2018interpreting}
+\item
+  \bibentry{srivastava2018ratio}
+\item
+  \bibentry{ge2018turing}
+\end{itemize}
+
+\subsubsection{Talks}
+
+\begin{itemize}
+\tightlist
+\item
+  Copresenter for ``The Turing Language for Probabilistic Programming''
+  at \emph{The Inaugural International Conference on Probabilistic
+  Programming, MIT, MA, USA} in October 2018.
+\item
+  Presenter for ``Turing: a Fresh Approach to Probabilistic
+  Programming.'' at \emph{JuliaCon 2017, Berkeley, CA, USA} in June
+  2017. (\href{https://www.youtube.com/watch?v=DJWNQg7uuCg}{video})
+\end{itemize}
+
+\subsubsection{Experience}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Univeristy of Edinburgh} / Tutor for Probabilistic Modelling
+  and Reasoning \emph{Jan.~2019 - PRESENT, Edinburgh, United Kingdom}
+\item
+  \textbf{Univeristy of Edinburgh} / Teaching Assistant for Machine
+  Learning and Pattern Recognition \emph{Sep.~2018 - Dec.~2018,
+  Edinburgh, United Kingdom}
+\item
+  \textbf{Apple} / Machine Learning Intern \emph{May 2018 - Aug.~2018,
+  Cambridge, United Kingdom}
+\item
+  \textbf{Univeristy of Edinburgh} / Teaching Assistant for Design
+  Informatics \emph{Oct.~2017 - Dec.~2017, Edinburgh, United Kingdom}
+\item
+  \textbf{University fo Cambridge} / Research Assistant at Machine
+  Learning Group \emph{Nov.~2016 - Jul.~2017, Cambridge, United Kingdom}
+\end{itemize}
 
 \subsubsection{Education}
 
 \begin{itemize}
 \tightlist
 \item
-  M.A.~Subject (grade), University name and location
+  \textbf{University of Edinburgh} / Ph.D in Informatics: Machine
+  Learning \emph{Sep.~2017 - PRESENT, Edinburgh, United Kingdom}
 \item
-  B.A. Subject (grade), University name and location
+  \textbf{University of Cambridge} / M.Phil in Machine Learning, Speech
+  \& Language Technology \emph{Oct.~2015 - Sep.~2016, Cambridge, United
+  Kingdom}
 \item
-  A Level Subject (grade), University name and location
+  \textbf{University of Liverpool} / B.Eng in Computer Science and
+  Electronic Engineering \emph{Sep.~2013 - Jun.~2015, Liverpool, United
+  Kingdom}
+\item
+  \textbf{Xi'an Jiaotong-Liverpool University} / B.Eng in Computer
+  Science \& Technology \emph{Sep.~2011 - Jun.~2013, Suzhou, China}
 \end{itemize}
 
-\subsubsection{Technical}
+\subsubsection{Projects (pre-Ph.D/casual)}
 
 \begin{itemize}
 \tightlist
 \item
-  Intermediate: HTML, Python, etc, etc
+  Mobile Robot Control using ROS
+  (\href{./assets/images/fyp.png}{poster})
 \item
-  Basic: CSS, Stata, etc, etc
+  DBD Plasma Reactor Power Monitoring System
+\item
+  Wireless Brain-Computer Interface for Game Control
+  (\href{https://www.youtube.com/watch?v=ysmLmQ8NfEY}{video})
+\item
+  FlatShare (\href{https://github.com/xukai92/flatshare}{code})
+\item
+  Gravity Snake (\href{http://xuk.ai/gravity_snake/}{demo},
+  \href{https://github.com/xukai92/gravity_snake}{code})
 \end{itemize}
-
-\subsubsection{Employment}
-
-\begin{itemize}
-\tightlist
-\item
-  2015: Job title, Company
-\end{itemize}
-
-\begin{quote}
-In this role I\ldots{}Duis aute irure dolor in reprehenderit in
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-\end{quote}
-
-\begin{itemize}
-\tightlist
-\item
-  2012: Job title, Company
-\end{itemize}
-
-\begin{quote}
-In this role I\ldots{}Duis aute irure dolor in reprehenderit in
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-\end{quote}
-
-\begin{itemize}
-\tightlist
-\item
-  2011: Job title, Company
-\end{itemize}
-
-\begin{quote}
-In this role I\ldots{}Duis aute irure dolor in reprehenderit in
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-\end{quote}
-
-\begin{itemize}
-\tightlist
-\item
-  2008: Job title, Company
-\end{itemize}
-
-\begin{quote}
-In this role I\ldots{}Duis aute irure dolor in reprehenderit in
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-\end{quote}
-
-\newpage
-
-\subsubsection{Publications}
-
-\begin{itemize}
-\tightlist
-\item
-  YYYY: Name et al.~Article title. Journal name. Link/DOI
-\item
-  YYYY: Name et al.~Article title. Journal name. Link/DOI
-\item
-  YYYY: Name et al.~Article title. Journal name. Link/DOI
-\item
-  YYYY: Name et al.~Article title. Journal name. Link/DOI
-\item
-  YYYY: Name et al.~Article title. Journal name. Link/DOI
-\item
-  YYYY: Name et al.~Article title. Journal name. Link/DOI
-\item
-  YYYY: Name et al.~Article title. Journal name. Link/DOI
-\end{itemize}
-
-\subsubsection{Selected presentations}
-
-\begin{itemize}
-\tightlist
-\item
-  YYYY: Title of presentation. Conference. Location. Poster/Oral
-\item
-  YYYY: Title of presentation. Conference. Location. Poster/Oral
-\item
-  YYYY: Title of presentation. Conference. Location. Poster/Oral
-\item
-  YYYY: Title of presentation. Conference. Location. Poster/Oral
-\item
-  YYYY: Title of presentation. Conference. Location. Poster/Oral
-\item
-  YYYY: Title of presentation. Conference. Location. Poster/Oral
-\item
-  YYYY: Title of presentation. Conference. Location. Poster/Oral
-\end{itemize}
-
-\subsubsection{Memberships and committees}
-
-\begin{itemize}
-\tightlist
-\item
-  YYYY: Name of committee/society etc.
-\item
-  YYYY: Name of committee/society etc.
-\item
-  YYYY: Name of committee/society etc.
-\item
-  YYYY: Name of committee/society etc.
-\item
-  YYYY: Name of committee/society etc.
-\item
-  YYYY: Name of committee/society etc.
-\end{itemize}
-
-\subsubsection{Awards and supporting information}
-
-\begin{itemize}
-\tightlist
-\item
-  YYYY: Description of award, certificate, supporting info etc.
-\item
-  YYYY: Description of award, certificate, supporting info etc.
-\item
-  YYYY: Description of award, certificate, supporting info etc.
-\item
-  YYYY: Description of award, certificate, supporting info etc.
-\item
-  YYYY: Description of award, certificate, supporting info etc.
-\item
-  YYYY: Description of award, certificate, supporting info etc.
-\item
-  YYYY: Description of award, certificate, supporting info etc.
-\end{itemize}
-
-\subsubsection{Publications}
-
-\bibentry{ge2018turing}
-
-\subsubsection{References}
-
-Available on request.
-\bibentry{ge2018turing}
 \end{raggedright}
-
-
 
 \end{document}

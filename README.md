@@ -1,11 +1,11 @@
-markdown-cv [![Build Status](https://travis-ci.org/tompollard/markdown-cv.svg?branch=master)](https://travis-ci.org/tompollard/markdown-cv)
+markdown-academic-cv
 ===========
 
-Simple Markdown CV / Resume
+Simple Markdown **Academic** CV / Resume
 
 ## Acknowledgments
 
-The original CV template is based on a version by Craig Eley, with a couple of minor modifications to make it run with Pandoc.
+The original CV template is based on a version by Tom Pollard, with a couple of minor modifications to make it use together with `bibtex`.
 
 ## Requirements
 
@@ -13,12 +13,6 @@ Requires Latex (http://latex-project.org/ftp.html) and Pandoc (http://johnmacfar
 
 ## Instructions
 
-1. Edit the source file at: /source/cv.md
+1. Edit the source files at: `cv.md` and `mypubs.bib`
 2. Run 'make pdf' in the folder containing the Makefile
-3. A new PDF will be generated in the /output folder
-
-## Notes / to do
-
-1. Create a list of useful commands
-2. Create instructions for adding variables, changing style etc.
-3. Add citation to related projects.
+3. A new PDF will be generated in the folder
