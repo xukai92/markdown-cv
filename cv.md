@@ -13,8 +13,7 @@ email: kai.xu@ed.ac.uk
 
 ### About Me
 
-> I am a second year Ph.D Student at [Institute for Adaptive and Neural Computation](http://www.anc.ed.ac.uk/), [School of Informatics](https://www.ed.ac.uk/informatics), University of Edinburgh.
-I am currently supervised by [Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/), working on amortised inference for Bayesian nonparametric models. Research topics that I am interested in include approximate inference, (deep) generative models and probabilistic programming.
+I am a second year Ph.D Student at [Institute for Adaptive and Neural Computation](http://www.anc.ed.ac.uk/), [School of Informatics](https://www.ed.ac.uk/informatics), University of Edinburgh. I am currently supervised by [Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/), working on amortised inference for Bayesian nonparametric models. Research topics that I am interested in include approximate inference, (deep) generative models and probabilistic programming.
 
 ### Papers
 
