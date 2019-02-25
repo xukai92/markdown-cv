@@ -23,18 +23,20 @@ I am a second year Ph.D Student at [Institute for Adaptive and Neural Computatio
 
 ### Talks
 
-- Copresenter for "The Turing Language for Probabilistic Programming" at *The Inaugural International Conference on Probabilistic Programming*, MIT, MA, USA in October 2018.
-- Presenter for "Turing: a Fresh Approach to Probabilistic Programming." at *JuliaCon 2017*, Berkeley, CA, USA in June 2017. ([video](https://www.youtube.com/watch?v=DJWNQg7uuCg))
+- Copresenter for "The Turing Language for Probabilistic Programming" at *The Inaugural International Conference on Probabilistic Programming*, MIT, MA, USA in October 2018
+  - Introduced the Turing probabilistic programming language.
+- Presenter for "Turing: a Fresh Approach to Probabilistic Programming." at *JuliaCon 2017*, Berkeley, CA, USA in June 2017 ([video](https://www.youtube.com/watch?v=DJWNQg7uuCg))
+  - Introduced a new generic probabilistic programming language named Turing.jl.
 
 ### Experience
 
-- **Univeristy of Edinburgh** / Tutor for Probabilistic Modelling and Reasoning
+- **University of Edinburgh** / Tutor for Probabilistic Modelling and Reasoning
 <br>*Jan. 2019 - PRESENT, Edinburgh, United Kingdom*
-- **Univeristy of Edinburgh** / Teaching Assistant for Machine Learning and Pattern Recognition
+- **University of Edinburgh** / Teaching Assistant for Machine Learning and Pattern Recognition
 <br>*Sep. 2018 - Dec. 2018, Edinburgh, United Kingdom*
 - **Apple** / Machine Learning Intern
 <br>*May 2018 - Aug. 2018, Cambridge, United Kingdom*
-- **Univeristy of Edinburgh** / Teaching Assistant for Design Informatics
+- **University of Edinburgh** / Teaching Assistant for Design Informatics
 <br>*Oct. 2017 - Dec. 2017, Edinburgh, United Kingdom*
 - **University fo Cambridge** / Research Assistant at Machine Learning Group
 <br>*Nov. 2016 - Jul. 2017, Cambridge, United Kingdom*
@@ -45,12 +47,30 @@ I am a second year Ph.D Student at [Institute for Adaptive and Neural Computatio
 
 - **University of Edinburgh** / Ph.D in Informatics: Machine Learning
 <br>*Sep. 2017 - PRESENT, Edinburgh, United Kingdom*
+  - Being supervised by Dr. Charles Sutton.
+  - Currently working on amortised inference for Bayesian non-parametric models.
 - **University of Cambridge** / M.Phil in Machine Learning, Speech & Language Technology
 <br>*Oct. 2015 - Sep. 2016, Cambridge, United Kingdom*
+  - M.Phil thesis supervised by Prof. Zoubin Ghahramani on probabilistic programming.
 - **University of Liverpool** / B.Eng in Computer Science and Electronic Engineering
 <br>*Sep. 2013 - Jun. 2015, Liverpool, United Kingdom*
 - **Xi'an Jiaotong-Liverpool University** / B.Eng in Computer Science & Technology
 <br>*Sep. 2011 - Jun. 2013, Suzhou, China*
+
+### Honors & Awards
+
+- **Ph.D Studentship**
+<br>*2017, University of Edinburgh*
+- **International Undergraduate Student Scholarship**
+<br>*2013, University of Liverpool*
+- **Academic Excellence Award**
+<br>*2012, Xi’an Jiaotong-Liverpool University*
+
+### Skills
+
+- **Programming** Julia, Python, Java, Scala, MATLAB, Clojure, C/C++, HTML, CSS, JavaScript
+- **Tooling** Git, Vim, Markdown, LaTeX
+- **Language** Chinese, Wu Chinese, English
 
 ### Projects (pre-Ph.D/casual)
 
@@ -59,3 +79,8 @@ I am a second year Ph.D Student at [Institute for Adaptive and Neural Computatio
 - Wireless Brain-Computer Interface for Game Control ([video](https://www.youtube.com/watch?v=ysmLmQ8NfEY))
 - FlatShare ([code](https://github.com/xukai92/flatshare))
 - Gravity Snake ([demo](http://xuk.ai/gravity_snake/), [code](https://github.com/xukai92/gravity_snake))
+
+### Reference
+
+- **Dr. Charles Sutton** School of Informatics, University of Edinburgh ([email](mailto:csutton@inf.ed.ac.uk))
+- **Prof. Zoubin Ghahramani** Department of Engineering, University of Cambridge ([email](mailto:zoubin@eng.cam.ac.uk))
