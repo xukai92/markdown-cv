@@ -17,6 +17,7 @@ I am a second year Ph.D Student at [Institute for Adaptive and Neural Computatio
 
 ### Papers
 
+- \bibentry{xu2018vrr} ([workshop](https://sites.google.com/view/nipsbnp2018/accepted-papers), [pdf](https://drive.google.com/file/d/1x-p13HC0SNTWcWcL_AspBS4OUBEGqn-a/view))
 - \bibentry{srivastava2018ratio} ([arXiv](https://arxiv.org/abs/1806.00101), [pdf](https://arxiv.org/pdf/1806.00101.pdf))
 - \bibentry{xu2018interpreting} ([arXiv](https://arxiv.org/abs/1803.04042), [pdf](https://arxiv.org/pdf/1803.04042.pdf), [demo](http://xuk.ai/darksight/demo/mnist.html), [code](https://github.com/xukai92/darksight), [website](http://xuk.ai/darksight/))
 - \bibentry{ge2018turing} ([abs](http://proceedings.mlr.press/v84/ge18b.html), [pdf](http://proceedings.mlr.press/v84/ge18b/ge18b.pdf), [code](https://github.com/yebai/Turing.jl), [website](http://turing.guru/))
