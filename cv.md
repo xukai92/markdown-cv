@@ -13,10 +13,11 @@ email: kai.xu@ed.ac.uk
 
 ### About Me
 
-I am a second year Ph.D Student at [Institute for Adaptive and Neural Computation](http://www.anc.ed.ac.uk/), [School of Informatics](https://www.ed.ac.uk/informatics), University of Edinburgh. I am currently supervised by [Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/), working on amortised inference for Bayesian nonparametric models. Research topics that I am interested in include approximate inference, (deep) generative models and probabilistic programming.
+I am a second year Ph.D Student at [Institute for Adaptive and Neural Computation](http://www.anc.ed.ac.uk/), [School of Informatics](https://www.ed.ac.uk/informatics), University of Edinburgh. I am currently supervised by [Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/), working on deep Bayesian nonparametric models. Research topics that I am interested in include approximate inference, (deep) generative models and probabilistic programming.
 
 ### Papers
 
+- \bibentry{xu2019rave} ([pdf](http://xuk.ai/assets/xu2019rave.pdf))
 - \bibentry{xu2018vrr} ([workshop](https://sites.google.com/view/nipsbnp2018/accepted-papers), [pdf](https://drive.google.com/file/d/1x-p13HC0SNTWcWcL_AspBS4OUBEGqn-a/view))
 - \bibentry{srivastava2018ratio} ([arXiv](https://arxiv.org/abs/1806.00101), [pdf](https://arxiv.org/pdf/1806.00101.pdf))
 - \bibentry{xu2018interpreting} ([arXiv](https://arxiv.org/abs/1803.04042), [pdf](https://arxiv.org/pdf/1803.04042.pdf), [demo](http://xuk.ai/darksight/demo/mnist.html), [code](https://github.com/xukai92/darksight), [website](http://xuk.ai/darksight/))
