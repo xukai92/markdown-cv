@@ -6,18 +6,21 @@ city: Edinburgh
 postcode: EH8 9AB
 phone: +44 (0) 770 771 9899
 email: kai.xu@ed.ac.uk
-<!-- date: 24 February 2019 -->
+<!-- date: 11 September 2019 -->
 ...
 
 [Email](mailto:kai.xu@ed.ac.uk) | [GitHub](http://github.com/xukai92) | [Google Scholar](https://scholar.google.ca/citations?user=kf3C60wAAAAJ)
 
 ### About Me
 
-I am a second year Ph.D Student at [Institute for Adaptive and Neural Computation](http://www.anc.ed.ac.uk/), [School of Informatics](https://www.ed.ac.uk/informatics), University of Edinburgh. I am currently supervised by [Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/), working on deep Bayesian nonparametric models. Research topics that I am interested in include approximate inference, (deep) generative models and probabilistic programming.
+I am a second year Ph.D Student at [Institute for Adaptive and Neural Computation](http://www.anc.ed.ac.uk/), [School of Informatics](https://www.ed.ac.uk/informatics), University of Edinburgh, supervised by [Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/). Research topics that I am interested in include approximate inference, generative models, deep learning and probabilistic programming.
+
+I am one of the core developers of the *Turing* probabilistic programming language ([website](https://turing.ml/), [GitHub](https://github.com/TuringLang/Turing.jl)) in [Julia](https://julialang.org/). 
 
 ### Papers
 
-- \bibentry{xu2019rave} ([pdf](http://xuk.ai/assets/xu2019rave.pdf))
+- \bibentry{hurwitz2019scalable} ([arXiv](https://arxiv.org/abs/1905.12375))
+- \bibentry{xu2019rave} ([abs](http://proceedings.mlr.press/v97/xu19e.html), [pdf](http://proceedings.mlr.press/v97/xu19e/xu19e.pdf), [suppl](http://proceedings.mlr.press/v97/xu19e/xu19e-supp.pdf), [code](https://github.com/xukai92/RAVE.jl))
 - \bibentry{xu2018vrr} ([workshop](https://sites.google.com/view/nipsbnp2018/accepted-papers), [pdf](https://drive.google.com/file/d/1x-p13HC0SNTWcWcL_AspBS4OUBEGqn-a/view))
 - \bibentry{srivastava2018ratio} ([arXiv](https://arxiv.org/abs/1806.00101), [pdf](https://arxiv.org/pdf/1806.00101.pdf))
 - \bibentry{xu2018interpreting} ([arXiv](https://arxiv.org/abs/1803.04042), [pdf](https://arxiv.org/pdf/1803.04042.pdf), [demo](http://xuk.ai/darksight/demo/mnist.html), [code](https://github.com/xukai92/darksight), [website](http://xuk.ai/darksight/))
@@ -25,6 +28,9 @@ I am a second year Ph.D Student at [Institute for Adaptive and Neural Computatio
 
 ### Talks
 
+- Presenter for "The Turing Language for Probabilistic Programming." at *Julia Lab*, MIT, MA, USA in June 2019 
+- Presenter for "Variational Russian Roulette for Deep Bayesian Nonparametrics." at *MIT-IBM Research*, MIT, CA, USA in June 2019.
+- Presenter for "Variational Russian Roulette for Deep Bayesian Nonparametrics." at *International Conference on Machine Learning*, Long Beach, CA, USA in June 2019.
 - Copresenter for "The Turing Language for Probabilistic Programming" at *The Inaugural International Conference on Probabilistic Programming*, MIT, MA, USA in October 2018
   - Introduced the Turing probabilistic programming language.
 - Presenter for "Turing: a Fresh Approach to Probabilistic Programming." at *JuliaCon 2017*, Berkeley, CA, USA in June 2017 ([video](https://www.youtube.com/watch?v=DJWNQg7uuCg))
@@ -50,7 +56,6 @@ I am a second year Ph.D Student at [Institute for Adaptive and Neural Computatio
 - **University of Edinburgh** / Ph.D in Informatics: Machine Learning
 <br>*Sep. 2017 - PRESENT, Edinburgh, United Kingdom*
   - Being supervised by Dr. Charles Sutton.
-  - Currently working on amortised inference for Bayesian non-parametric models.
 - **University of Cambridge** / M.Phil in Machine Learning, Speech & Language Technology
 <br>*Oct. 2015 - Sep. 2016, Cambridge, United Kingdom*
   - M.Phil thesis supervised by Prof. Zoubin Ghahramani on probabilistic programming.
